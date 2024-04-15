@@ -1,0 +1,23 @@
+1. iniciar repositorio 
+    git init
+
+2. agregar archivos a git (tenerlos en el radar)
+    git add .
+
+3. crear un commit (una version en la historia del archivo)
+    git commit -m "aqui va el mensaje"
+
+4. mirar todos los commits de un archivo
+    git log
+
+5. crear una nueva rama
+    git checkout -b "nombre-de-la-rama "
+
+6. si quieres moverte entre commits (versiones y ramas) lo haces con:
+    git checkout "commit o nombre de la rama"
+
+7. unir cambios entre ramas (primero estar ubicados en la rama en la cual quieres traer los cambios de la nueva rama)
+    git merge "nombre-rama"
+
+8. subir cambios a github (hace esto despues de hacer un git add . y un commit -m )
+    git push
