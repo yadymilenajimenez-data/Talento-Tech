@@ -1,0 +1,279 @@
+This data was collected with an on-line version of the Depression Anxiety Stress Scales (DASS), see http://www2.psy.unsw.edu.au/dass/
+
+The survey was open to anyone and people were motivated to take it to get personalized results. At the end of the test they also were given the option to complete a short research survey. This datatset comes from those who agreed to complete the research survey and answered yes to the question "Have you given accurate answers and may they be used for research?" at the end.
+
+This data was collected 2017 - 2019.
+
+The following items were included in the survey:
+
+Q1	I found myself getting upset by quite trivial things.
+Q2	I was aware of dryness of my mouth.
+Q3	I couldn't seem to experience any positive feeling at all.
+Q4	I experienced breathing difficulty (eg, excessively rapid breathing, breathlessness in the absence of physical exertion).
+Q5	I just couldn&#39;t seem to get going.
+Q6	I tended to over-react to situations.
+Q7	I had a feeling of shakiness (eg, legs going to give way).
+Q8	I found it difficult to relax.
+Q9	I found myself in situations that made me so anxious I was most relieved when they ended.
+Q10	I felt that I had nothing to look forward to.
+Q11	I found myself getting upset rather easily.
+Q12	I felt that I was using a lot of nervous energy.
+Q13	I felt sad and depressed.
+Q14	I found myself getting impatient when I was delayed in any way (eg, elevators, traffic lights, being kept waiting).
+Q15	I had a feeling of faintness.
+Q16	I felt that I had lost interest in just about everything.
+Q17	I felt I wasn&#39;t worth much as a person.
+Q18	I felt that I was rather touchy.
+Q19	I perspired noticeably (eg, hands sweaty) in the absence of high temperatures or physical exertion.
+Q20	I felt scared without any good reason.
+Q21	I felt that life wasn&#39;t worthwhile.
+Q22	I found it hard to wind down.
+Q23	I had difficulty in swallowing.
+Q24	I couldn&#39;t seem to get any enjoyment out of the things I did.
+Q25	I was aware of the action of my heart in the absence of physical exertion (eg, sense of heart rate increase, heart missing a beat).
+Q26	I felt down-hearted and blue.
+Q27	I found that I was very irritable.
+Q28	I felt I was close to panic.
+Q29	I found it hard to calm down after something upset me.
+Q30	I feared that I would be &quot;thrown&quot; by some trivial but unfamiliar task.
+Q31	I was unable to become enthusiastic about anything.
+Q32	I found it difficult to tolerate interruptions to what I was doing.
+Q33	I was in a state of nervous tension.
+Q34	I felt I was pretty worthless.
+Q35	I was intolerant of anything that kept me from getting on with what I was doing.
+Q36	I felt terrified.
+Q37	I could see nothing in the future to be hopeful about.
+Q38	I felt that life was meaningless.
+Q39	I found myself getting agitated.
+Q40	I was worried about situations in which I might panic and make a fool of myself.
+Q41	I experienced trembling (eg, in the hands).
+Q42	I found it difficult to work up the initiative to do things.
+
+Each item was presented one at a time in a random order for each new participant along with a 4 point rating scale asking the user to indicate how often that had been true of them in the past week where
+
+1 = Did not apply to me at all 
+2 = Applied to me to some degree, or some of the time
+3 = Applied to me to a considerable degree, or a good part of the time
+4 = Applied to me very much, or most of the time
+
+(see the file demo1.png for how this looked)
+
+This response is stored in variable A (e.g. Q1A). Also recorded was the time taken in milliseconds to answer that question (E) and that question's position in the survey (I).
+
+These other durations were also recorded (measured on the server's side):
+
+introelapse		The time spent on the introduction/landing page (in seconds)
+testelapse		The time spent on all the DASS questions (should be equivalent to the time elapsed on all the indiviudal questions combined)
+surveyelapse	The time spent answering the rest of the demographic and survey questions
+
+On the next page was a generic demographics survey with many different questions.
+
+The Ten Item Personality Inventory was administered (see Gosling, S. D., Rentfrow, P. J., & Swann, W. B., Jr. (2003). A Very Brief Measure of the Big Five Personality Domains. Journal of Research in Personality, 37, 504-528.):
+
+TIPI1	Extraverted, enthusiastic.
+TIPI2	Critical, quarrelsome.
+TIPI3	Dependable, self-disciplined.
+TIPI4	Anxious, easily upset.
+TIPI5	Open to new experiences, complex.
+TIPI6	Reserved, quiet.
+TIPI7	Sympathetic, warm.
+TIPI8	Disorganized, careless.
+TIPI9	Calm, emotionally stable.
+TIPI10	Conventional, uncreative.
+
+The TIPI items were rated "I see myself as:" _____ such that
+
+1 = Disagree strongly
+2 = Disagree moderately
+3 = Disagree a little
+4 = Neither agree nor disagree
+5 = Agree a little
+6 = Agree moderately
+7 = Agree strongly
+
+
+
+The following items were presented as a check-list and subjects were instructed "In the grid below, check all the words whose definitions you are sure you know":
+
+VCL1	boat
+VCL2	incoherent
+VCL3	pallid
+VCL4	robot
+VCL5	audible
+VCL6	cuivocal
+VCL7	paucity
+VCL8	epistemology
+VCL9	florted
+VCL10	decide
+VCL11	pastiche
+VCL12	verdid
+VCL13	abysmal
+VCL14	lucid
+VCL15	betray
+VCL16	funny
+
+A value of 1 is checked, 0 means unchecked. The words at VCL6, VCL9, and VCL12 are not real words and can be used as a validity check.
+
+A bunch more questions were then asked:
+
+
+education			"How much education have you completed?", 1=Less than high school, 2=High school, 3=University degree, 4=Graduate degree
+urban				"What type of area did you live when you were a child?", 1=Rural (country side), 2=Suburban, 3=Urban (town, city)
+gender				"What is your gender?", 1=Male, 2=Female, 3=Other
+engnat				"Is English your native language?", 1=Yes, 2=No
+age					"How many years old are you?"
+hand				"What hand do you use to write with?", 1=Right, 2=Left, 3=Both
+religion			"What is your religion?", 1=Agnostic, 2=Atheist, 3=Buddhist, 4=Christian (Catholic), 5=Christian (Mormon), 6=Christian (Protestant), 7=Christian (Other), 8=Hindu, 9=Jewish, 10=Muslim, 11=Sikh, 12=Other
+orientation			"What is your sexual orientation?", 1=Heterosexual, 2=Bisexual, 3=Homosexual, 4=Asexual, 5=Other
+race				"What is your race?", 10=Asian, 20=Arab, 30=Black, 40=Indigenous Australian, 50=Native American, 60=White, 70=Other
+voted				"Have you voted in a national election in the past year?", 1=Yes, 2=No
+married				"What is your marital status?", 1=Never married, 2=Currently married, 3=Previously married
+familysize			"Including you, how many children did your mother have?"		
+major				"If you attended a university, what was your major (e.g. "psychology", "English", "civil engineering")?"
+
+The following values were derived from technical information:
+
+country				ISO country code of where the user connected from
+screensize			1=device with small screen (phone, etc), 2=device with big screen (laptop, desktop, etc)
+uniquenetworklocation		1=only one survey from user's specific network in dataset, 2=multiple surveys submitted from the network of this user  (2 does not necessarily imply duplicate records for an individual, as it could be different students at a single school or different memebers of the same household; and even if 1 there still could be duplicate records from a single individual e.g. if they took it once on their wifi and once on their phone)
+source			how the user found the test, 1=from the front page of the site hosting the survey, 2=from google, 0=other or unknown
+
+
+------------------------------------------------ESPAÑOL---------------------------------------
+
+Estos datos fueron recopilados utilizando una versión en línea de las Escalas de Depresión, Ansiedad y Estrés (DASS), disponibles en http://www2.psy.unsw.edu.au/dass/
+
+La encuesta estaba abierta a cualquier persona y las personas estaban motivadas para tomarla para obtener resultados personalizados. Al final de la prueba, también se les ofrecía la opción de completar una breve encuesta de investigación. Este conjunto de datos proviene de aquellos que aceptaron completar la encuesta de investigación y respondieron sí a la pregunta "¿Has dado respuestas precisas y pueden ser utilizadas para investigación?" al final.
+
+Estos datos fueron recopilados entre 2017 y 2019.
+
+Los siguientes elementos fueron incluidos en la encuesta:
+
+Q1 Me encontré molesto por cosas bastante triviales.
+Q2 Estaba consciente de la sequedad de mi boca.
+Q3 Parecía que no podía experimentar ningún sentimiento positivo en absoluto.
+Q4 Experimenté dificultad para respirar (por ejemplo, respiración excesivamente rápida, falta de aire en ausencia de esfuerzo físico).
+Q5 Simplemente no parecía poder empezar.
+Q6 Tendía a reaccionar exageradamente ante las situaciones.
+Q7 Tenía la sensación de temblor (por ejemplo, piernas a punto de ceder).
+Q8 Me resultaba difícil relajarme.
+Q9 Me encontré en situaciones que me causaron tanta ansiedad que estaba más aliviado cuando terminaron.
+Q10 Sentí que no tenía nada que esperar.
+Q11 Me encontré molesto bastante fácilmente.
+Q12 Sentí que estaba usando mucha energía nerviosa.
+Q13 Me sentí triste y deprimido.
+Q14 Me encontré impaciente cuando me retrasaban de alguna manera (por ejemplo, ascensores, semáforos, esperas).
+Q15 Tuve una sensación de mareo.
+Q16 Sentí que había perdido interés en casi todo.
+Q17 Sentí que no valía mucho como persona.
+Q18 Sentí que era bastante susceptible.
+Q19 Sudé notablemente (por ejemplo, manos sudorosas) en ausencia de altas temperaturas o esfuerzo físico.
+Q20 Sentí miedo sin ninguna razón válida.
+Q21 Sentí que la vida no valía la pena.
+Q22 Me resultó difícil calmarme.
+Q23 Tuve dificultad para tragar.
+Q24 No parecía poder disfrutar de las cosas que hacía.
+Q25 Estaba consciente de la acción de mi corazón en ausencia de esfuerzo físico (por ejemplo, sensación de aumento de la frecuencia cardíaca, latidos cardíacos irregulares).
+Q26 Me sentí desanimado y triste.
+Q27 Descubrí que estaba muy irritable.
+Q28 Sentí que estaba cerca del pánico.
+Q29 Me costó tranquilizarme después de que algo me molestara.
+Q30 Temí que me "tiraran" por alguna tarea trivial pero desconocida.
+Q31 No pude entusiasmarme por nada.
+Q32 Me resultó difícil tolerar interrupciones en lo que estaba haciendo.
+Q33 Estaba en un estado de tensión nerviosa.
+Q34 Sentí que era bastante inútil.
+Q35 Fui intolerante con cualquier cosa que me impidiera seguir con lo que estaba haciendo.
+Q36 Me sentí aterrorizado.
+Q37 No pude ver nada en el futuro que me diera esperanza.
+Q38 Sentí que la vida no tenía sentido.
+Q39 Me encontré agitado.
+Q40 Estaba preocupado por situaciones en las que podría entrar en pánico y hacer el ridículo.
+Q41 Experimenté temblores (por ejemplo, en las manos).
+Q42 Me resultó difícil encontrar la iniciativa para hacer cosas.
+
+Cada elemento se presentó uno por uno en un orden aleatorio para cada nuevo participante, junto con una escala de calificación de 4 puntos que pedía al usuario que indicara con qué frecuencia eso había sido cierto para ellos en la última semana, donde:
+
+1 = No me aplicaba en absoluto
+2 = Me aplicaba en cierto grado, o algunas veces
+3 = Me aplicaba en gran medida, o la mayor parte del tiempo
+4 = Me aplicaba mucho, o la mayoría del tiempo
+
+(consulte el archivo demo1.png para ver cómo se veía esto)
+
+Esta respuesta se almacena en la variable A (por ejemplo, Q1A). También se registró el tiempo en milisegundos que se tomó para responder esa pregunta (E) y la posición de esa pregunta en la encuesta (I).
+
+También se registraron estas otras duraciones (medidas en el lado del servidor):
+
+introelapse El tiempo dedicado a la página de introducción (en segundos)
+testelapse El tiempo dedicado a todas las preguntas del DASS (debería ser equivalente al tiempo transcurrido en todas las preguntas individuales combinadas)
+surveyelapse El tiempo dedicado a responder el resto de las preguntas demográficas y de la encuesta
+
+En la siguiente página se realizó una encuesta demográfica genérica con muchas preguntas diferentes.
+
+Se administró el Inventario de Personalidad de Diez Ítems (ver Gosling, S. D., Rentfrow, P. J., & Swann, W. B., Jr. (2003). A Very Brief Measure of the Big Five Personality Domains. Journal of Research in Personality, 37, 504-528.):
+
+TIPI1 Extravertido, entusiasta.
+TIPI2 Crítico, rencoroso.
+TIPI3 Confiable, disciplinado.
+TIPI4 Ansioso, fácilmente molesto.
+TIPI5 Abierto a nuevas experiencias, complejo.
+TIPI6 Reservado, tranquilo.
+TIPI7 Simpático, cálido.
+TIPI8 Desorganizado, descuidado.
+TIPI9 Calmado, emocionalmente estable.
+TIPI10 Convencional, poco creativo.
+
+Los elementos de TIPI se calificaron como "Me veo a mí mismo como:" _____ de tal manera que
+
+1 = En desacuerdo fuertemente
+2 = En desacuerdo moderadamente
+3 = En desacuerdo un poco
+4 = Ni de acuerdo ni en desacuerdo
+5 = De acuerdo un poco
+6 = De acuerdo moderadamente
+7 = De acuerdo fuertemente
+
+Los siguientes elementos se presentaron como una lista de verificación y se instruyó a los sujetos "En la cuadrícula a continuación, marque todas las palabras cuyas definiciones esté seguro de conocer":
+
+VCL1 bote
+VCL2 incoherente
+VCL3 pálido
+VCL4 robot
+VCL5 audible
+VCL6 cuivocal
+VCL7 escasez
+VCL8 epistemología
+VCL9 florted
+VCL10 decidir
+VCL11 pastiche
+VCL12 verdid
+VCL13 abismal
+VCL14 lúcido
+VCL15 tradición
+VCL16 divertido
+
+Un valor de 1 está marcado, 0 significa desmarcado. Las palabras en VCL6, VCL9 y VCL12 no son palabras reales y pueden usarse como comprobación de validez.
+
+Luego se hicieron un montón más de preguntas:
+
+educación "¿Cuánta educación has completado?", 1=Menos que la escuela secundaria, 2=Escuela secundaria, 3=Título universitario, 4=Posgrado
+urbano "¿Qué tipo de área vivías cuando eras niño?", 1=Rural (campo), 2=Suburbano, 3=Urbano (pueblo, ciudad)
+género "¿Cuál es tu género?", 1=Masculino, 2=Femenino, 3=Otro
+engnat "¿El inglés es tu idioma nativo?", 1=Sí, 2=No
+edad "¿Cuántos años tienes?"
+mano "¿Con qué mano escribes?", 1=Derecha, 2=Izquierda, 3=Ambas
+religión "¿Cuál es tu religión?", 1=Agnóstico, 2=Ateo, 3=Budista, 4=Cristiano (Católico), 5=Cristiano (Mormón), 6=Cristiano (Protestante), 7=Cristiano (Otro), 8=Hindú, 9=Judío, 10=Musulmán, 11=Sij, 12=Otro
+orientación "¿Cuál es tu orientación sexual?", 1=Heterosexual, 2=Bisexual, 3=Homosexual, 4=Asexual, 5=Otro
+raza "¿Cuál es tu raza?", 10=Asiático, 20=Árabe, 30=Negro, 40=Australiano indígena, 50=Indio americano, 60=Blanco, 70=Otro
+votó "¿Has votado en una elección nacional en el último año?", 1=Sí, 2=No
+casado "¿Cuál es tu estado civil?", 1=Nunca casado, 2=Actualmente casado, 3=Anteriormente casado
+tamaño de familia "Incluyéndote a ti, ¿cuántos hijos tuvo tu madre?"
+especialidad "Si asististe a la universidad, ¿cuál fue tu especialidad (por ejemplo, 'psicología', 'inglés', 'ingeniería civil')?"
+
+Los siguientes valores se derivaron de la información técnica:
+
+país Código ISO del país desde donde se conectó el usuario
+tamaño de pantalla 1=dispositivo con pantalla pequeña (teléfono, etc), 2=dispositivo con pantalla grande (portátil, escritorio, etc)
+ubicación de red única 1=solo una encuesta del usuario específico en el conjunto de datos de la red, 2=múltiples encuestas enviadas desde la red de este usuario (2 no implica necesariamente registros duplicados para un individuo, ya que podrían ser diferentes estudiantes en una sola escuela o diferentes miembros del mismo hogar; e incluso si es 1, aún podría haber registros duplicados de un solo individuo, por ejemplo, si lo tomaron una vez en su wifi y una vez en su teléfono)
+fuente cómo encontró el usuario la prueba, 1=desde la página de inicio del sitio que aloja la encuesta, 2=desde Google, 0=otro o desconocido

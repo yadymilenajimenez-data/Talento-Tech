@@ -1,0 +1,13 @@
+{
+  "shell_port": 58971,
+  "iopub_port": 33199,
+  "stdin_port": 41593,
+  "control_port": 52217,
+  "hb_port": 55567,
+  "ip": "127.0.0.1",
+  "key": "b50f681a-eb28dcf88c354e012bbb5cd3",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/jovyan/imputacion/imputacion - copia.ipynb"
+}

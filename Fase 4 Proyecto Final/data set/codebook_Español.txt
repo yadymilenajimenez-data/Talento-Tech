@@ -1,0 +1,138 @@
+------------------------------------------------ESPAÑOL---------------------------------------
+
+Estos datos fueron recopilados utilizando una versión en línea de las Escalas de Depresión, Ansiedad y Estrés (DASS), disponibles en http://www2.psy.unsw.edu.au/dass/
+
+La encuesta estaba abierta a cualquier persona y las personas estaban motivadas para tomarla para obtener resultados personalizados. Al final de la prueba, también se les ofrecía la opción de completar una breve encuesta de investigación. Este conjunto de datos proviene de aquellos que aceptaron completar la encuesta de investigación y respondieron sí a la pregunta "¿Has dado respuestas precisas y pueden ser utilizadas para investigación?" al final.
+
+Estos datos fueron recopilados entre 2017 y 2019.
+
+Los siguientes elementos fueron incluidos en la encuesta:
+
+Q1 Me encontré molesto por cosas bastante triviales.
+Q2 Estaba consciente de la sequedad de mi boca.
+Q3 Parecía que no podía experimentar ningún sentimiento positivo en absoluto.
+Q4 Experimenté dificultad para respirar (por ejemplo, respiración excesivamente rápida, falta de aire en ausencia de esfuerzo físico).
+Q5 Simplemente no parecía poder empezar.
+Q6 Tendía a reaccionar exageradamente ante las situaciones.
+Q7 Tenía la sensación de temblor (por ejemplo, piernas a punto de ceder).
+Q8 Me resultaba difícil relajarme.
+Q9 Me encontré en situaciones que me causaron tanta ansiedad que estaba más aliviado cuando terminaron.
+Q10 Sentí que no tenía nada que esperar.
+Q11 Me encontré molesto bastante fácilmente.
+Q12 Sentí que estaba usando mucha energía nerviosa.
+Q13 Me sentí triste y deprimido.
+Q14 Me encontré impaciente cuando me retrasaban de alguna manera (por ejemplo, ascensores, semáforos, esperas).
+Q15 Tuve una sensación de mareo.
+Q16 Sentí que había perdido interés en casi todo.
+Q17 Sentí que no valía mucho como persona.
+Q18 Sentí que era bastante susceptible.
+Q19 Sudé notablemente (por ejemplo, manos sudorosas) en ausencia de altas temperaturas o esfuerzo físico.
+Q20 Sentí miedo sin ninguna razón válida.
+Q21 Sentí que la vida no valía la pena.
+Q22 Me resultó difícil calmarme.
+Q23 Tuve dificultad para tragar.
+Q24 No parecía poder disfrutar de las cosas que hacía.
+Q25 Estaba consciente de la acción de mi corazón en ausencia de esfuerzo físico (por ejemplo, sensación de aumento de la frecuencia cardíaca, latidos cardíacos irregulares).
+Q26 Me sentí desanimado y triste.
+Q27 Descubrí que estaba muy irritable.
+Q28 Sentí que estaba cerca del pánico.
+Q29 Me costó tranquilizarme después de que algo me molestara.
+Q30 Temí que me "tiraran" por alguna tarea trivial pero desconocida.
+Q31 No pude entusiasmarme por nada.
+Q32 Me resultó difícil tolerar interrupciones en lo que estaba haciendo.
+Q33 Estaba en un estado de tensión nerviosa.
+Q34 Sentí que era bastante inútil.
+Q35 Fui intolerante con cualquier cosa que me impidiera seguir con lo que estaba haciendo.
+Q36 Me sentí aterrorizado.
+Q37 No pude ver nada en el futuro que me diera esperanza.
+Q38 Sentí que la vida no tenía sentido.
+Q39 Me encontré agitado.
+Q40 Estaba preocupado por situaciones en las que podría entrar en pánico y hacer el ridículo.
+Q41 Experimenté temblores (por ejemplo, en las manos).
+Q42 Me resultó difícil encontrar la iniciativa para hacer cosas.
+
+Cada elemento se presentó uno por uno en un orden aleatorio para cada nuevo participante, junto con una escala de calificación de 4 puntos que pedía al usuario que indicara con qué frecuencia eso había sido cierto para ellos en la última semana, donde:
+
+1 = No me aplicaba en absoluto
+2 = Me aplicaba en cierto grado, o algunas veces
+3 = Me aplicaba en gran medida, o la mayor parte del tiempo
+4 = Me aplicaba mucho, o la mayoría del tiempo
+
+(consulte el archivo demo1.png para ver cómo se veía esto)
+
+Esta respuesta se almacena en la variable A (por ejemplo, Q1A). También se registró el tiempo en milisegundos que se tomó para responder esa pregunta (E) y la posición de esa pregunta en la encuesta (I).
+
+También se registraron estas otras duraciones (medidas en el lado del servidor):
+
+introelapse El tiempo dedicado a la página de introducción (en segundos)
+testelapse El tiempo dedicado a todas las preguntas del DASS (debería ser equivalente al tiempo transcurrido en todas las preguntas individuales combinadas)
+surveyelapse El tiempo dedicado a responder el resto de las preguntas demográficas y de la encuesta
+
+En la siguiente página se realizó una encuesta demográfica genérica con muchas preguntas diferentes.
+
+Se administró el Inventario de Personalidad de Diez Ítems (ver Gosling, S. D., Rentfrow, P. J., & Swann, W. B., Jr. (2003). A Very Brief Measure of the Big Five Personality Domains. Journal of Research in Personality, 37, 504-528.):
+
+TIPI1 Extravertido, entusiasta.
+TIPI2 Crítico, rencoroso.
+TIPI3 Confiable, disciplinado.
+TIPI4 Ansioso, fácilmente molesto.
+TIPI5 Abierto a nuevas experiencias, complejo.
+TIPI6 Reservado, tranquilo.
+TIPI7 Simpático, cálido.
+TIPI8 Desorganizado, descuidado.
+TIPI9 Calmado, emocionalmente estable.
+TIPI10 Convencional, poco creativo.
+
+Los elementos de TIPI se calificaron como "Me veo a mí mismo como:" _____ de tal manera que
+
+1 = En desacuerdo fuertemente
+2 = En desacuerdo moderadamente
+3 = En desacuerdo un poco
+4 = Ni de acuerdo ni en desacuerdo
+5 = De acuerdo un poco
+6 = De acuerdo moderadamente
+7 = De acuerdo fuertemente
+
+Los siguientes elementos se presentaron como una lista de verificación y se instruyó a los sujetos "En la cuadrícula a continuación, marque todas las palabras cuyas definiciones esté seguro de conocer":
+
+VCL1 bote
+VCL2 incoherente
+VCL3 pálido
+VCL4 robot
+VCL5 audible
+VCL6 cuivocal
+VCL7 escasez
+VCL8 epistemología
+VCL9 florted
+VCL10 decidir
+VCL11 pastiche
+VCL12 verdid
+VCL13 abismal
+VCL14 lúcido
+VCL15 tradición
+VCL16 divertido
+
+Un valor de 1 está marcado, 0 significa desmarcado. Las palabras en VCL6, VCL9 y VCL12 no son palabras reales y pueden usarse como comprobación de validez.
+
+Luego se hicieron un montón más de preguntas:
+
+educación "¿Cuánta educación has completado?", 1=Menos que la escuela secundaria, 2=Escuela secundaria, 3=Título universitario, 4=Posgrado
+urbano "¿Qué tipo de área vivías cuando eras niño?", 1=Rural (campo), 2=Suburbano, 3=Urbano (pueblo, ciudad)
+género "¿Cuál es tu género?", 1=Masculino, 2=Femenino, 3=Otro
+engnat "¿El inglés es tu idioma nativo?", 1=Sí, 2=No
+edad "¿Cuántos años tienes?"
+mano "¿Con qué mano escribes?", 1=Derecha, 2=Izquierda, 3=Ambas
+religión "¿Cuál es tu religión?", 1=Agnóstico, 2=Ateo, 3=Budista, 4=Cristiano (Católico), 5=Cristiano (Mormón), 6=Cristiano (Protestante), 7=Cristiano (Otro), 8=Hindú, 9=Judío, 10=Musulmán, 11=Sij, 12=Otro
+orientación "¿Cuál es tu orientación sexual?", 1=Heterosexual, 2=Bisexual, 3=Homosexual, 4=Asexual, 5=Otro
+raza "¿Cuál es tu raza?", 10=Asiático, 20=Árabe, 30=Negro, 40=Australiano indígena, 50=Indio americano, 60=Blanco, 70=Otro
+votó "¿Has votado en una elección nacional en el último año?", 1=Sí, 2=No
+casado "¿Cuál es tu estado civil?", 1=Nunca casado, 2=Actualmente casado, 3=Anteriormente casado
+tamaño de familia "Incluyéndote a ti, ¿cuántos hijos tuvo tu madre?"
+especialidad "Si asististe a la universidad, ¿cuál fue tu especialidad (por ejemplo, 'psicología', 'inglés', 'ingeniería civil')?"
+
+Los siguientes valores se derivaron de la información técnica:
+
+país Código ISO del país desde donde se conectó el usuario
+tamaño de pantalla 1=dispositivo con pantalla pequeña (teléfono, etc), 2=dispositivo con pantalla grande (portátil, escritorio, etc)
+ubicación de red única 1=solo una encuesta del usuario específico en el conjunto de datos de la red, 2=múltiples encuestas enviadas desde la red de este usuario (2 no implica necesariamente registros duplicados para un individuo, ya que podrían ser diferentes estudiantes en una sola escuela o diferentes miembros del mismo hogar; e incluso si es 1, aún podría haber registros duplicados de un solo individuo, por ejemplo, si lo tomaron una vez en su wifi y una vez en su teléfono)
+fuente cómo encontró el usuario la prueba, 1=desde la página de inicio del sitio que aloja la encuesta, 2=desde Google, 0=otro o desconocido
